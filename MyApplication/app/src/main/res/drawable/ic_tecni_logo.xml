@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- C circular (Circuit Path) -->
+    <path
+        android:pathData="M75,50 A25,25 0 1,1 50,25"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- T (Electric Lightning Bolt) -->
+    <path
+        android:pathData="M45,20 L65,20 L40,55 L60,55 L30,85 L45,50 L25,50 Z"
+        android:fillColor="#FFC300"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1" />
+
+</vector>
